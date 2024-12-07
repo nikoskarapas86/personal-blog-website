@@ -35,6 +35,14 @@ a:hover {
   padding: 0.5rem;
   text-align: center;
 }
+.song img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ff005c;
+  margin-bottom: 1rem;
+}
 
 .navbar ul {
   list-style: none;
