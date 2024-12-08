@@ -94,6 +94,18 @@ a:hover {
   border-radius: 10px;
 }
 
+.song.clickable {
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.song.clickable:hover {
+  border-color: neon green;
+  cursor: pointer;
+}
+
 .footer {
   text-align: center;
   padding: 1rem;
