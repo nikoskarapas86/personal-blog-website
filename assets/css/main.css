@@ -1,0 +1,37 @@
+/* General styles */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ff6ec7, #6011b7);
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+a {
+  color: #ffdf00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #000;
+  color: #ffdf00;
+  border-bottom: 4px solid #ff6ec7;
+}
+
+.header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.navbar {
+  background: #6011b7;
+  padding: 0.5rem;
+  text-align: center;
+}
